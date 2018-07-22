@@ -1,0 +1,996 @@
+.container-fluid .duy {
+  height: auto;
+}
+.container-fluid .duy .titlee {
+  text-align: center;
+}
+.container-fluid .duy .titlee h1 {
+  font-family: courier;
+  font-weight: bold;
+  color: #ffc0cb;
+}
+.container-fluid .duy .titlee a {
+  color: pink;
+  text-decoration: none;
+}
+.container-fluid .duy .titlee a:hover {
+  text-decoration: none;
+  color: blue;
+}
+.container-fluid .duy .sldw {
+  height: auto;
+}
+.container-fluid .duy .sldw .kc {
+  height: auto;
+}
+.container-fluid .duy .sldw .kc .hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+.container-fluid .duy .sldw .kc .hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+.container-fluid .duy .sldw .kc .hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: all 0.5s;
+  transition: all 0.35s;
+}
+.container-fluid .duy .sldw .kc .hovereffect:hover img {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.7" /><feFuncG type="linear" slope="0.7" /><feFuncB type="linear" slope="0.7" /></feComponentTransfer></filter></svg>#filter');
+  filter: brightness(0.7);
+  -webkit-filter: brightness(0.7);
+}
+.container-fluid .duy .sldw .kc .hovereffect a.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #fff;
+  margin: 50px 0 0 0;
+  background-color: transparent;
+}
+.container-fluid .duy .sldw .kc .hovereffect a.info:hover {
+  box-shadow: 0 0 5px #fff;
+}
+.container-fluid .duy .sldw .kc .hovereffect .rotate {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.container-fluid .duy .sldw .kc .hovereffect hr {
+  width: 50%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.container-fluid .duy .sldw .kc .hovereffect hr:nth-child(2) {
+  -webkit-transform: translate3d(-50%, -50%, 0) rotate(0deg) scale3d(0, 0, 1);
+  transform: translate3d(-50%, -50%, 0) rotate(0deg) scale3d(0, 0, 1);
+}
+.container-fluid .duy .sldw .kc .hovereffect hr:nth-child(3) {
+  -webkit-transform: translate3d(-50%, -50%, 0) rotate(90deg) scale3d(0, 0, 1);
+  transform: translate3d(-50%, -50%, 0) rotate(90deg) scale3d(0, 0, 1);
+}
+.container-fluid .duy .sldw .kc .hovereffect h2,
+.container-fluid .duy .sldw .kc .hovereffect hr {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  -webkit-transform-origin: 50%;
+  -ms-transform-origin: 50%;
+  transform-origin: 50%;
+  background-color: transparent;
+  margin: 0px;
+}
+.container-fluid .duy .sldw .kc .group1,
+.container-fluid .duy .sldw .kc .group2 {
+  left: 50%;
+  position: absolute;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  -webkit-transform-origin: 50%;
+  -ms-transform-origin: 50%;
+  transform-origin: 50%;
+  background-color: transparent;
+  margin: 0px;
+  padding: 0px;
+}
+.container-fluid .duy .sldw .kc .group1 {
+  top: 40%;
+}
+.container-fluid .duy .sldw .kc .group2 {
+  top: 60%;
+}
+.container-fluid .duy .sldw .kc .hovereffect p {
+  width: 30%;
+  text-transform: none;
+  font-size: 15px;
+  line-height: 2;
+}
+.container-fluid .duy .sldw .kc .hovereffect p a {
+  color: #fff;
+}
+.container-fluid .duy .sldw .kc .hovereffect p a:hover,
+.container-fluid .duy .sldw .kc .hovereffect p a:focus {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+.container-fluid .duy .sldw .kc .hovereffect a i {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  padding: 10px;
+  font-size: 20px;
+}
+.container-fluid .duy .sldw .kc .group1 a:first-child i {
+  -webkit-transform: translate3d(-60px, -60px, 0) rotate(45deg) scale(2);
+  transform: translate3d(-60px, -60px, 0) rotate(45deg) scale(2);
+}
+.container-fluid .duy .sldw .kc .group1 a:nth-child(2) i {
+  -webkit-transform: translate3d(60px, -60px, 0) rotate(45deg) scale(2);
+  transform: translate3d(60px, -60px, 0) rotate(45deg) scale(2);
+}
+.container-fluid .duy .sldw .kc .group2 a:first-child i {
+  -webkit-transform: translate3d(-60px, 60px, 0) rotate(45deg) scale(2);
+  transform: translate3d(-60px, 60px, 0) rotate(45deg) scale(2);
+}
+.container-fluid .duy .sldw .kc .group2 a:nth-child(2) i {
+  -webkit-transform: translate3d(60px, 60px, 0) rotate(45deg) scale(2);
+  transform: translate3d(60px, 60px, 0) rotate(45deg) scale(2);
+}
+.container-fluid .duy .sldw .kc .hovereffect:hover hr:nth-child(2) {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(-50%, -50%, 0) rotate(0deg) scale3d(1, 1, 1);
+  transform: translate3d(-50%, -50%, 0) rotate(0deg) scale3d(1, 1, 1);
+}
+.container-fluid .duy .sldw .kc .hovereffect:hover hr:nth-child(3) {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(-50%, -50%, 0) rotate(90deg) scale3d(1, 1, 1);
+  transform: translate3d(-50%, -50%, 0) rotate(90deg) scale3d(1, 1, 1);
+}
+.container-fluid .duy .sldw .kc .hovereffect:hover .group1 i:empty,
+.container-fluid .duy .sldw .kc .hovereffect:hover .group2 i:empty {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0) rotate(45deg) scale(1);
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.container-fluid .duy .sldw .kc img {
+  width: 115%;
+}
+@media screen and (max-width: 1023px) {
+  .container-fluid .duy .sldw .kc img {
+    width: 123%;
+  }
+}
+.container-fluid .duy .sldw .kc a {
+  text-decoration: none;
+}
+@media screen and (max-width: 766px) {
+  .container-fluid .duy .sldw .carousel-item {
+    display: none;
+  }
+}
+.container-fluid .duy .sldw .carousel-control-prev {
+  position: absolute;
+  top: -15%;
+  left: 92.5%;
+  height: 15%;
+  width: 3.5%;
+  background: blue;
+}
+@media screen and (max-width: 766px) {
+  .container-fluid .duy .sldw .carousel-control-prev {
+    display: none;
+  }
+}
+.container-fluid .duy .sldw .carousel-control-next {
+  position: absolute;
+  top: -15%;
+  height: 15%;
+  left: 96.5%;
+  width: 3.5%;
+  background: blue;
+}
+@media screen and (max-width: 766px) {
+  .container-fluid .duy .sldw .carousel-control-next {
+    display: none;
+  }
+}
+.container-fluid .duy .sldw .haha {
+  display: none;
+}
+.container-fluid .duy .sldw .haha .hovereffect {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+.container-fluid .duy .sldw .haha .hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+.container-fluid .duy .sldw .haha .hovereffect:hover img {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.7" /><feFuncG type="linear" slope="0.7" /><feFuncB type="linear" slope="0.7" /></feComponentTransfer></filter></svg>#filter');
+  filter: brightness(0.7);
+  -webkit-filter: brightness(0.7);
+}
+.container-fluid .duy .sldw .haha .hovereffect a.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #fff;
+  margin: 50px 0 0 0;
+  background-color: transparent;
+}
+.container-fluid .duy .sldw .haha .hovereffect a.info:hover {
+  box-shadow: 0 0 5px #fff;
+}
+.container-fluid .duy .sldw .haha .hovereffect .rotate {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.container-fluid .duy .sldw .haha .hovereffect hr {
+  width: 50%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.container-fluid .duy .sldw .haha .hovereffect hr:nth-child(2) {
+  -webkit-transform: translate3d(-50%, -50%, 0) rotate(0deg) scale3d(0, 0, 1);
+  transform: translate3d(-50%, -50%, 0) rotate(0deg) scale3d(0, 0, 1);
+}
+.container-fluid .duy .sldw .haha .hovereffect hr:nth-child(3) {
+  -webkit-transform: translate3d(-50%, -50%, 0) rotate(90deg) scale3d(0, 0, 1);
+  transform: translate3d(-50%, -50%, 0) rotate(90deg) scale3d(0, 0, 1);
+}
+.container-fluid .duy .sldw .haha .hovereffect h2,
+.container-fluid .duy .sldw .haha .hovereffect hr {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  -webkit-transform-origin: 50%;
+  -ms-transform-origin: 50%;
+  transform-origin: 50%;
+  background-color: transparent;
+  margin: 0px;
+}
+.container-fluid .duy .sldw .haha .group1,
+.container-fluid .duy .sldw .haha .group2 {
+  left: 50%;
+  position: absolute;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  -webkit-transform-origin: 50%;
+  -ms-transform-origin: 50%;
+  transform-origin: 50%;
+  background-color: transparent;
+  margin: 0px;
+  padding: 0px;
+}
+.container-fluid .duy .sldw .haha .group1 {
+  top: 40%;
+}
+.container-fluid .duy .sldw .haha .group2 {
+  top: 60%;
+}
+.container-fluid .duy .sldw .haha .hovereffect p {
+  width: 30%;
+  text-transform: none;
+  font-size: 15px;
+  line-height: 2;
+}
+.container-fluid .duy .sldw .haha .hovereffect p a {
+  color: #fff;
+}
+.container-fluid .duy .sldw .haha .hovereffect p a:hover,
+.container-fluid .duy .sldw .haha .hovereffect p a:focus {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+.container-fluid .duy .sldw .haha .hovereffect a i {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  padding: 10px;
+  font-size: 20px;
+}
+.container-fluid .duy .sldw .haha .group1 a:first-child i {
+  -webkit-transform: translate3d(-60px, -60px, 0) rotate(45deg) scale(2);
+  transform: translate3d(-60px, -60px, 0) rotate(45deg) scale(2);
+}
+.container-fluid .duy .sldw .haha .group1 a:nth-child(2) i {
+  -webkit-transform: translate3d(60px, -60px, 0) rotate(45deg) scale(2);
+  transform: translate3d(60px, -60px, 0) rotate(45deg) scale(2);
+}
+.container-fluid .duy .sldw .haha .group2 a:first-child i {
+  -webkit-transform: translate3d(-60px, 60px, 0) rotate(45deg) scale(2);
+  transform: translate3d(-60px, 60px, 0) rotate(45deg) scale(2);
+}
+.container-fluid .duy .sldw .haha .group2 a:nth-child(2) i {
+  -webkit-transform: translate3d(60px, 60px, 0) rotate(45deg) scale(2);
+  transform: translate3d(60px, 60px, 0) rotate(45deg) scale(2);
+}
+.container-fluid .duy .sldw .haha .hovereffect:hover hr:nth-child(2) {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(-50%, -50%, 0) rotate(0deg) scale3d(1, 1, 1);
+  transform: translate3d(-50%, -50%, 0) rotate(0deg) scale3d(1, 1, 1);
+}
+.container-fluid .duy .sldw .haha .hovereffect:hover hr:nth-child(3) {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(-50%, -50%, 0) rotate(90deg) scale3d(1, 1, 1);
+  transform: translate3d(-50%, -50%, 0) rotate(90deg) scale3d(1, 1, 1);
+}
+.container-fluid .duy .sldw .haha .hovereffect:hover .group1 i:empty,
+.container-fluid .duy .sldw .haha .hovereffect:hover .group2 i:empty {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0) rotate(45deg) scale(1);
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+@media screen and (max-width: 766px) {
+  .container-fluid .duy .sldw .haha {
+    display: block;
+  }
+}
+.container-fluid .duy .sldw .haha img {
+  height: 100%;
+  width: 100%;
+}
+.container-fluid .duy .sldw .xm {
+  display: none;
+  float: right;
+  font-size: 20px;
+}
+@media screen and (max-width: 766px) {
+  .container-fluid .duy .sldw .xm {
+    display: block;
+  }
+}
+.container-fluid .duy .sldw .xm a {
+  text-decoration: none;
+}
+.container-fluid .duy .sldw .xm a:hover {
+  color: darkgreen;
+  text-decoration: none;
+}
+.container-fluid .duy2 {
+  height: auto;
+  background: linear-gradient(to right, #800080, #add8e6);
+}
+.container-fluid .duy2 .titlee2 {
+  color: white;
+  text-align: center;
+}
+.container-fluid .duy2 .titlee2 h1 {
+  font-family: courier;
+  font-weight: bold;
+}
+.container-fluid .duy2 .titlee2 h1 a {
+  text-decoration: none;
+}
+.container-fluid .duy2 .titlee2 h1 a:hover {
+  color: white;
+}
+.container-fluid .duy2 .titlee2 a {
+  text-decoration: none;
+  color: white;
+}
+.container-fluid .duy2 .titlee2 a:hover {
+  text-decoration: none;
+  color: red;
+}
+.container-fluid .duy2 .sldw2 {
+  height: auto;
+}
+.container-fluid .duy2 .sldw2 .kcc {
+  height: auto;
+}
+.container-fluid .duy2 .sldw2 .kcc .hovereffect {
+  width: 100%;
+  height: 90%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+.container-fluid .duy2 .sldw2 .kcc .hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+  transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+}
+.container-fluid .duy2 .sldw2 .kcc .hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+  transition: all 1s cubic-bezier(0.88, -0.99, 0, 1.81);
+}
+.container-fluid .duy2 .sldw2 .kcc .hovereffect a.info {
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  margin: 50px 0 0;
+  padding: 7px 14px;
+}
+.container-fluid .duy2 .sldw2 .kcc .hovereffect a.info:hover {
+  background: rgba(0, 115, 0, 0.5);
+  box-shadow: 0 0 5px #fff;
+}
+.container-fluid .duy2 .sldw2 .kcc .hovereffect:hover img {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.container-fluid .duy2 .sldw2 .kcc .hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.container-fluid .duy2 .sldw2 .kcc .hovereffect:hover h2,
+.container-fluid .duy2 .sldw2 .kcc .hovereffect:hover a.info {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -ms-transform: translatey(0);
+  -webkit-transform: translatey(0);
+  transform: translatey(0);
+}
+.container-fluid .duy2 .sldw2 .kcc .hovereffect:hover a.info {
+  -webkit-transition-delay: .2s;
+  transition-delay: .2s;
+}
+.container-fluid .duy2 .sldw2 .kcc .wbox {
+  float: left;
+  width: 100%;
+  height: 10%;
+  background: #FFFFFF;
+}
+.container-fluid .duy2 .sldw2 .kcc .wbox p {
+  font-size: 100%;
+  float: left;
+  width: 65%;
+}
+.container-fluid .duy2 .sldw2 .kcc .wbox p a {
+  font-weight: bold;
+  color: #CC0099;
+}
+.container-fluid .duy2 .sldw2 .kcc .wbox a {
+  text-decoration: none;
+  color: blue;
+  font-size: 120%;
+}
+.container-fluid .duy2 .sldw2 .kcc .wbox a:hover {
+  color: red;
+}
+.container-fluid .duy2 .sldw2 .kcc img {
+  width: 100%;
+}
+@media screen and (max-width: 1023px) {
+  .container-fluid .duy2 .sldw2 .kcc img {
+    width: 123%;
+  }
+}
+@media screen and (max-width: 766px) {
+  .container-fluid .duy2 .sldw2 .carousel-item {
+    display: none;
+  }
+}
+.container-fluid .duy2 .sldw2 .carousel-control-prev {
+  position: absolute;
+  top: -12%;
+  left: 92.5%;
+  height: 12%;
+  width: 3.5%;
+  background: #9999FF;
+}
+@media screen and (max-width: 766px) {
+  .container-fluid .duy2 .sldw2 .carousel-control-prev {
+    display: none;
+  }
+}
+.container-fluid .duy2 .sldw2 .carousel-control-next {
+  position: absolute;
+  top: -12%;
+  height: 12%;
+  left: 96.5%;
+  width: 3.5%;
+  background: #9999FF;
+}
+@media screen and (max-width: 766px) {
+  .container-fluid .duy2 .sldw2 .carousel-control-next {
+    display: none;
+  }
+}
+.container-fluid .duy2 .sldw2 .haha2 {
+  height: 100%;
+  display: none;
+}
+.container-fluid .duy2 .sldw2 .haha2 .hovereffect {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+.container-fluid .duy2 .sldw2 .haha2 .hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+  transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+}
+.container-fluid .duy2 .sldw2 .haha2 .hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+  transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+}
+.container-fluid .duy2 .sldw2 .haha2 .hovereffect h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-transform: translatey(-100px);
+  -ms-transform: translatey(-100px);
+  transform: translatey(-100px);
+  -webkit-transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+  transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+  padding: 10px;
+}
+.container-fluid .duy2 .sldw2 .haha2 .hovereffect a.info {
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  margin: 50px 0 0;
+  padding: 7px 14px;
+}
+.container-fluid .duy2 .sldw2 .haha2 .hovereffect a.info:hover {
+  box-shadow: 0 0 5px #fff;
+}
+.container-fluid .duy2 .sldw2 .haha2 .hovereffect:hover img {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.container-fluid .duy2 .sldw2 .haha2 .hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.container-fluid .duy2 .sldw2 .haha2 .hovereffect:hover h2,
+.container-fluid .duy2 .sldw2 .haha2 .hovereffect:hover a.info {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -ms-transform: translatey(0);
+  -webkit-transform: translatey(0);
+  transform: translatey(0);
+}
+.container-fluid .duy2 .sldw2 .haha2 .hovereffect:hover a.info {
+  -webkit-transition-delay: .2s;
+  transition-delay: .2s;
+}
+@media screen and (max-width: 766px) {
+  .container-fluid .duy2 .sldw2 .haha2 {
+    display: block;
+  }
+}
+.container-fluid .duy2 .sldw2 .haha2 img {
+  height: 100%;
+  width: 100%;
+}
+.container-fluid .duy2 .sldw2 .haha2 .wbox {
+  width: 100%;
+  height: 10%;
+  background: #FFFFFF;
+  padding-left: 1%;
+}
+.container-fluid .duy2 .sldw2 .haha2 .wbox p {
+  font-size: 100%;
+  float: left;
+  width: 65%;
+}
+.container-fluid .duy2 .sldw2 .haha2 .wbox p a {
+  font-weight: bold;
+  color: #CC0099;
+}
+.container-fluid .duy2 .sldw2 .haha2 .wbox a {
+  text-decoration: none;
+  color: blue;
+  font-size: 100%;
+}
+.container-fluid .duy2 .sldw2 .haha2 .wbox a:hover {
+  color: red;
+}
+.container-fluid .duy2 .sldw2 .chit {
+  display: none;
+  font-size: 100%;
+}
+@media screen and (max-width: 766px) {
+  .container-fluid .duy2 .sldw2 .chit {
+    display: block;
+  }
+}
+.container-fluid .duy2 .sldw2 .chit a {
+  color: yellow;
+  text-decoration: none;
+}
+.container-fluid .duy2 .sldw2 .chit a:hover {
+  color: darkgreen;
+  text-decoration: none;
+}
+.container-fluid .duy3 {
+  float: left;
+  background: #DCDCDC;
+}
+.container-fluid .duy3 .titlee3 {
+  color: purple;
+  text-align: center;
+}
+.container-fluid .duy3 .titlee3 h1 {
+  font-family: courier;
+  font-weight: bold;
+  color: purple;
+}
+.container-fluid .duy3 .titlee3 h1 a:hover {
+  color: purple;
+}
+.container-fluid .duy3 .titlee3 a {
+  text-decoration: none;
+  color: purple;
+}
+.container-fluid .duy3 .titlee3 a:hover {
+  text-decoration: none;
+  color: red;
+}
+.container-fluid .duy3 .sldw3 {
+  height: auto;
+}
+.container-fluid .duy3 .sldw3 .kcc {
+  height: auto;
+}
+.container-fluid .duy3 .sldw3 .kcc img {
+  height: 100%;
+}
+.container-fluid .duy3 .sldw3 .kcc .hovereffect {
+  width: 100%;
+  height: 90%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+.container-fluid .duy3 .sldw3 .kcc .hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+  transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+}
+.container-fluid .duy3 .sldw3 .kcc .hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+  transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+}
+.container-fluid .duy3 .sldw3 .kcc .hovereffect a.info {
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  margin: 50px 0 0;
+  padding: 7px 14px;
+}
+.container-fluid .duy3 .sldw3 .kcc .hovereffect a.info:hover {
+  background: rgba(225, 0, 0, 0.5);
+  box-shadow: 0 0 5px #fff;
+}
+.container-fluid .duy3 .sldw3 .kcc .hovereffect:hover img {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.container-fluid .duy3 .sldw3 .kcc .hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.container-fluid .duy3 .sldw3 .kcc .hovereffect:hover h2,
+.container-fluid .duy3 .sldw3 .kcc .hovereffect:hover a.info {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -ms-transform: translatey(0);
+  -webkit-transform: translatey(0);
+  transform: translatey(0);
+}
+.container-fluid .duy3 .sldw3 .kcc .hovereffect:hover a.info {
+  -webkit-transition-delay: .2s;
+  transition-delay: .2s;
+}
+.container-fluid .duy3 .sldw3 .kcc .wbox {
+  border-bottom: 4px solid purple;
+  float: left;
+  width: 100%;
+  height: 10%;
+  background: #FFFFFF;
+}
+.container-fluid .duy3 .sldw3 .kcc .wbox p {
+  font-size: 100%;
+  float: left;
+  width: 65%;
+}
+.container-fluid .duy3 .sldw3 .kcc .wbox p a {
+  font-weight: bold;
+  color: #CC0099;
+}
+.container-fluid .duy3 .sldw3 .kcc .wbox a {
+  text-decoration: none;
+  color: blue;
+  font-size: 120%;
+}
+.container-fluid .duy3 .sldw3 .kcc .wbox a:hover {
+  color: red;
+}
+.container-fluid .duy3 .sldw3 .kcc img {
+  width: 100%;
+}
+@media screen and (max-width: 1023px) {
+  .container-fluid .duy3 .sldw3 .kcc img {
+    width: 123%;
+  }
+}
+@media screen and (max-width: 766px) {
+  .container-fluid .duy3 .sldw3 .carousel-item {
+    display: none;
+  }
+}
+.container-fluid .duy3 .sldw3 .carousel-control-prev {
+  position: absolute;
+  top: -12%;
+  left: 92.5%;
+  height: 12%;
+  width: 3.5%;
+  background: blue;
+}
+@media screen and (max-width: 766px) {
+  .container-fluid .duy3 .sldw3 .carousel-control-prev {
+    display: none;
+  }
+}
+.container-fluid .duy3 .sldw3 .carousel-control-next {
+  position: absolute;
+  top: -12%;
+  height: 12%;
+  left: 96.5%;
+  width: 3.5%;
+  background: blue;
+}
+@media screen and (max-width: 766px) {
+  .container-fluid .duy3 .sldw3 .carousel-control-next {
+    display: none;
+  }
+}
+.container-fluid .duy3 .sldw3 .haha2 {
+  height: 100%;
+  display: none;
+}
+.container-fluid .duy3 .sldw3 .haha2 .hovereffect {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+.container-fluid .duy3 .sldw3 .haha2 .hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+  transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+}
+.container-fluid .duy3 .sldw3 .haha2 .hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+  transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+}
+.container-fluid .duy3 .sldw3 .haha2 .hovereffect h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-transform: translatey(-100px);
+  -ms-transform: translatey(-100px);
+  transform: translatey(-100px);
+  -webkit-transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+  transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+  padding: 10px;
+}
+.container-fluid .duy3 .sldw3 .haha2 .hovereffect a.info {
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  margin: 50px 0 0;
+  padding: 7px 14px;
+}
+.container-fluid .duy3 .sldw3 .haha2 .hovereffect a.info:hover {
+  box-shadow: 0 0 5px #fff;
+}
+.container-fluid .duy3 .sldw3 .haha2 .hovereffect:hover img {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.container-fluid .duy3 .sldw3 .haha2 .hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.container-fluid .duy3 .sldw3 .haha2 .hovereffect:hover h2,
+.container-fluid .duy3 .sldw3 .haha2 .hovereffect:hover a.info {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -ms-transform: translatey(0);
+  -webkit-transform: translatey(0);
+  transform: translatey(0);
+}
+.container-fluid .duy3 .sldw3 .haha2 .hovereffect:hover a.info {
+  -webkit-transition-delay: .2s;
+  transition-delay: .2s;
+}
+@media screen and (max-width: 766px) {
+  .container-fluid .duy3 .sldw3 .haha2 {
+    display: block;
+  }
+}
+.container-fluid .duy3 .sldw3 .haha2 img {
+  height: 100%;
+  width: 100%;
+}
+.container-fluid .duy3 .sldw3 .haha2 .wbox {
+  width: 100%;
+  height: 10%;
+  background: #FFFFFF;
+  padding-left: 1%;
+}
+.container-fluid .duy3 .sldw3 .haha2 .wbox p {
+  font-size: 100%;
+  float: left;
+  width: 65%;
+}
+.container-fluid .duy3 .sldw3 .haha2 .wbox p a {
+  font-weight: bold;
+  color: #CC0099;
+}
+.container-fluid .duy3 .sldw3 .haha2 .wbox a {
+  text-decoration: none;
+  color: blue;
+  font-size: 100%;
+}
+.container-fluid .duy3 .sldw3 .haha2 .wbox a:hover {
+  color: red;
+}
+.container-fluid .duy3 .sldw3 .chit {
+  display: none;
+  font-size: 100%;
+}
+@media screen and (max-width: 766px) {
+  .container-fluid .duy3 .sldw3 .chit {
+    display: block;
+  }
+}
+.container-fluid .duy3 .sldw3 .chit a {
+  color: blue;
+  text-decoration: none;
+}
+.container-fluid .duy3 .sldw3 .chit a:hover {
+  color: darkgreen;
+  text-decoration: none;
+}
