@@ -2,6 +2,99 @@
 	// <!-- dat -->
 	// 	<!-- end dat -->
 	// 	<!-- son -->
+	.son{
+		margin-top: 1%;
+		height: auto;
+		// background-image: url(img/son1q.png);
+		// background-size: 100%;
+		background: pink;
+		@media screen and (max-width: 767px){
+			height:60%;
+			background-size: 100%;
+			background: none;
+		}
+
+		.son1{
+			margin-top: 2%;
+			height: 330px;
+			@media screen and (max-width: 1024px){
+				height: 50%;
+			}
+
+			img{
+				width: 20%;
+				height: 20%;
+				margin: 0 auto;
+				margin-top: 10px;
+				@media screen and (max-width: 1024px){
+					width: 10%;
+					height: 10%;
+				}
+
+			}
+			h5 {
+				text-align: center;
+				color: white;
+				@media screen and (max-width: 1024px){
+					font-size: 80%;
+				}
+			}
+			p{
+				text-align: center;
+				color: white;
+				@media screen and (max-width: 1024px){
+					font-size: 60%;
+				}
+
+			}
+			a{
+				margin-left: 30%;
+				color: white;
+				text-decoration: none;
+				font-size: 15px;
+				@media screen and (max-width: 1024px){
+					font-size: 10px;
+					margin-left: 20px;
+				}
+				
+			}
+
+			.son12{
+				border: none;
+				margin: 0;
+				@media screen and(max-width: 767px){
+					.son13{
+						margin-left: 15%;
+					}
+				}
+				.overlay{
+					width: 90%;
+					height: 95%;
+					background: #e80b93;
+					margin: 1% 0% 1% 0%;
+					float: left;
+					&:hover{
+						border: 1px solid #E8E8E8;
+						background: none;
+						@media screen and(max-width: 1024px){
+							border: 2px solid white;
+							background: none;
+							margin-left: 5%;
+						}
+						@media screen and (max-width: 767px){
+							.overlay{
+								&:hover{
+									display: none;
+								}
+							}
+						}
+					}
+
+				}
+			}
+			.son11{opacity: 0.7}	
+		}
+	}
 	// 	<!-- end son -->
 	// 	<!-- duy -->
 	// 	<!-- end duy -->
