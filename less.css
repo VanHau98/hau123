@@ -1,0 +1,208 @@
+.container-fluid .hung2 {
+  height: auto;
+  padding: 0;
+}
+.container-fluid .hung2 .hung1 .hung01 {
+  height: 500px;
+  background-image: url("img/hung00.jpg");
+  background-size: 100% 100%;
+  position: relative;
+}
+@media screen and (max-width: 1024px) {
+  .container-fluid .hung2 .hung1 .hung01 {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .container-fluid .hung2 .hung1 .hung01 {
+    height: 300px;
+  }
+}
+.container-fluid .hung2 .hung1 .hung01 .hung11 {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.container-fluid .hung2 .hung1 .hung01 .hung11 .khungchu {
+  margin: 0 auto;
+  margin-top: 8%;
+  width: 60%;
+  height: 40%;
+}
+@media screen and (max-width: 980px) {
+  .container-fluid .hung2 .hung1 .hung01 .hung11 .khungchu {
+    width: 80%;
+  }
+}
+.container-fluid .hung2 .hung1 .hung01 .hung11 .khungchu h3 {
+  text-align: center;
+  font-family: Verdana;
+  color: white;
+  font-size: 250%;
+}
+@media screen and (max-width: 480px) {
+  .container-fluid .hung2 .hung1 .hung01 .hung11 .khungchu h3 {
+    font-size: 100%;
+  }
+}
+.container-fluid .hung2 .hung1 .hung01 .hung11 .khungchu h4 {
+  text-align: center;
+  font-family: monospace;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 10%;
+}
+.container-fluid .hung2 .hung1 .hung01 .hung11 .khungchu h6 {
+  text-align: center;
+  font-family: Georgia;
+  color: white;
+  margin: 3%;
+}
+.container-fluid .hung2 .gtco-heading {
+  margin-top: 20px;
+}
+.container-fluid .hung2 .gtco-heading h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Georgia;
+}
+.container-fluid .hung2 .hung02 .baihung .animate-box {
+  margin-top: 35px;
+}
+.container-fluid .hung2 .hung02 .baihung .animate-box:hover {
+  box-shadow: 5px 0px 40px rgba(223, 0, 41, 0.2);
+}
+.container-fluid .hung2 .hung02 .baihung .animate-box .fff {
+  margin: 0 auto;
+}
+.container-fluid .hung2 .hung02 .baihung .animate-box .fff img {
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #eb639c;
+}
+.container-fluid .hung2 .hung02 .baihung .animate-box .fff img:hover {
+  box-shadow: 5px 0px 40px rgba(0, 127, 84, 0.2);
+  transform: scale(1.2);
+}
+.container-fluid .hung2 .hung02 .baihung .animate-box .fff a {
+  list-style-type: none;
+  text-decoration: none;
+}
+.container-fluid .hung2 .hung02 .baihung .animate-box .fff a h3 {
+  text-align: center;
+  font-family: Georgia;
+  margin-top: 30px;
+  color: black;
+}
+.container-fluid .hung2 .hung02 .baihung .animate-box .fff a h5 {
+  text-align: center;
+  font-family: cursive;
+  color: gray;
+}
+.container-fluid .hung2 .hung02 .baihung .animate-box .fff .icon {
+  margin: 0 auto;
+}
+.container-fluid .hung2 .hung02 .baihung .animate-box .fff .icon a {
+  margin-left: 15px;
+}
+.container-fluid .hung2 .hung02 .baihung .animate-box .fff .icon a i {
+  color: black;
+}
+.container-fluid .hung2 .hung02 .baihung .animate-box .fff .btn-default {
+  width: 60%;
+  text-transform: uppercase;
+  background: #eb639c;
+  margin: 0 auto;
+  font-family: Georgia;
+  color: white;
+}
+@media screen and (max-width: 1024px) {
+  .container-fluid .hung2 .hung02 .baihung .animate-box .fff .btn-default {
+    width: 90%;
+  }
+}
+.container-fluid .hung2 .hung02 .baihung .animate-box .fff2 {
+  margin: 0 auto;
+}
+@media screen and (max-width: 980px) {
+  .container-fluid .hung2 .hung02 .baihung .animate-box .fff2 {
+    display: none;
+  }
+}
+.container-fluid .hung2 .hung02 .baihung .animate-box .fff2 img {
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #eb639c;
+}
+.container-fluid .hung2 .hung02 .baihung .animate-box .fff2 img:hover {
+  box-shadow: 5px 0px 40px rgba(0, 127, 84, 0.2);
+  transform: scale(1.2);
+}
+.container-fluid .hung2 .hung02 .baihung .animate-box .fff2 a {
+  list-style-type: none;
+  text-decoration: none;
+}
+.container-fluid .hung2 .hung02 .baihung .animate-box .fff2 a h3 {
+  text-align: center;
+  font-family: Georgia;
+  margin-top: 30px;
+  color: black;
+}
+.container-fluid .hung2 .hung02 .baihung .animate-box .fff2 a h5 {
+  text-align: center;
+  font-family: cursive;
+  color: gray;
+}
+.container-fluid .hung2 .hung02 .baihung .animate-box .fff2 .icon {
+  margin: 0 auto;
+}
+.container-fluid .hung2 .hung02 .baihung .animate-box .fff2 .icon a {
+  margin-left: 15px;
+}
+.container-fluid .hung2 .hung02 .baihung .animate-box .fff2 .icon a i {
+  color: black;
+}
+.container-fluid .hung2 .hung02 .baihung .animate-box .fff2 .btn-default {
+  width: 70%;
+  text-transform: uppercase;
+  background: #eb639c;
+  margin: 0 auto;
+  font-family: Georgia;
+  color: white;
+}
+@media screen and (max-width: 1024px) {
+  .container-fluid .hung2 .hung02 .baihung .animate-box .fff2 .btn-default {
+    width: 90%;
+  }
+}
+.container-fluid .hung2 .hung02 .nut15 {
+  background: gray;
+  width: 50px;
+  height: 40px;
+  left: 91%;
+  top: -50px;
+}
+@media screen and (max-width: 980px) {
+  .container-fluid .hung2 .hung02 .nut15 {
+    display: none;
+  }
+}
+.container-fluid .hung2 .hung02 .nut16 {
+  background: gray;
+  width: 50px;
+  height: 40px;
+  left: 95%;
+  top: -50px;
+}
+@media screen and (max-width: 980px) {
+  .container-fluid .hung2 .hung02 .nut16 {
+    display: none;
+  }
+}
